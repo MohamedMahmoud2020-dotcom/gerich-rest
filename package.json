@@ -35,5 +35,13 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://MohamedMahmoud2020-dotcom.github.io/gerich-rest"
+  "homepage": "https://MohamedMahmoud2020-dotcom.github.io/gerich-rest",
+  "scripts": {
++   "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+}
 }
