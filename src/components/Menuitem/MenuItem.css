@@ -1,0 +1,21 @@
+.app__menuItem-heading{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.app__menuItem-right{
+    display: flex;
+    align-items: center;
+}
+
+.app__menuItem-right_sign{
+    width: 90px;
+    height: 1px;
+    background: var(--color-golden);
+    margin: 0 1rem;
+}
+
+.app__menuItem-left h3{
+    margin-bottom: 0.5rem;
+}

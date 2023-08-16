@@ -1,0 +1,37 @@
+.app__header{
+    display: flex;
+    flex-direction: row;
+    background: var(--color-black);
+    padding-top: 10rem;
+}
+.app__header-info{
+    flex: 1;
+}
+
+.app__header-info h1{
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04rem;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 90px;
+}
+.app__header-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__header-image img{
+    width: 80%;
+}
+
+@media screen and (max-width:1150px) {
+    .app__header{
+        flex-direction: column;
+    }
+    .app__header-image{
+        margin-top: 4rem;
+    }
+}
